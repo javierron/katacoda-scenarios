@@ -1,7 +1,7 @@
-first we set up our visualization stack
+Let's set up our minikube cluster
 
-clone `kube-prometheus` repository
+`minikube start`{{execute}}
 
-`git clone https://github.com/coreos/kube-prometheus.git` {{execute}}
+Make sure that the `metrics-server` addon is disabled for now
 
-next, we go into the 
+`minikube addons list`

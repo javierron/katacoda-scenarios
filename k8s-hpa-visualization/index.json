@@ -6,8 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Minikube setup",
         "text": "step1.md"
+      },
+      {
+        "title": "Monitoring containers and namespace",
+        "text": "step2.md"
       }
     ],
     "intro": {
