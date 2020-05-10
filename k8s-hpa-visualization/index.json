@@ -16,6 +16,18 @@
       {
         "title": "Expose monitoring services",
         "text": "step3.md"
+      },
+      {
+        "title": "Import custom dashboard",
+        "text": "step4.md"
+      },
+      {
+        "title": "Create server and autoscaler",
+        "text": "step5.md"
+      },
+      {
+        "title": "Generate load",
+        "text": "step6.md"
       }
     ],
     "intro": {
