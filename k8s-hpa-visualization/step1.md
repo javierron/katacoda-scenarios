@@ -1,7 +1,7 @@
-Let's set up our minikube cluster
+Make sure our minikube cluster is running:
 
-`minikube start`{{execute}}
+`minikube status`{{execute}}
 
 Make sure that the `metrics-server` addon is disabled for now
 
-`minikube addons list`
+`minikube addons list`{{execute}}

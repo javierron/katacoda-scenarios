@@ -6,6 +6,8 @@ clone `kube-prometheus` repository
 
 next, we go into the repository and spawn the monitoring namespaces and containers.
 
+`cd kube-prometheus`{{execute}}
+
 **Be sure to wait each command is complteted and all containers are running before moving to the next**
 
 `kubectl create -f manifests/setup`{{execute}}
