@@ -2,11 +2,11 @@ Now we expose the monitoing services using the `kubectl port-forward` command
 
 Prometheus:
 
-`kubectl --namespace monitoring port-forward --address [[HOST_IP]] svc/prometheus-k8s 9090`{{execute}}
+`kubectl --namespace monitoring port-forward --address [[HOST_IP]] svc/prometheus-k8s 9090 &`{{execute}}
 
 Grafana:
 
-`kubectl --namespace monitoring port-forward --address [[HOST_IP]] svc/grafana 3000`{{execute}}
+`kubectl --namespace monitoring port-forward --address [[HOST_IP]] svc/grafana 3000 &`{{execute}}
 
 
 The dashboards should now be accessible through the browser.
