@@ -8,11 +8,12 @@ next, we go into the repository and spawn the monitoring namespaces and containe
 
 `cd kube-prometheus`{{execute}}
 
-**Be sure to wait each command is complteted and all containers are running before moving to the next**
+**Be sure to wait each command is completed and all containers are running before moving to the next command**
+
+To check for the status of the containers use
+`kubectl get pods --namespace=monitoring`{{execute}}
 
 `kubectl create -f manifests/setup`{{execute}}
 
 `kubectl create -f manifests/`{{execute}}
 
-to check for the status of the containers use
-`kubectl get pods --namespace=monitoring`{{execute}}
