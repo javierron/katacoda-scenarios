@@ -1,5 +1,9 @@
 To create our deployment, let's use one of k8s example web servers.
 
+First we need to enable the "metrics-server" addon:
+
+`minikube addons enable metrics-server`{{execute}}
+
 Download and deploy the web server
 
 `kubectl apply -f https://k8s.io/examples/application/php-apache.yaml`{{execute}}
