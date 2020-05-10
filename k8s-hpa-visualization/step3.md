@@ -20,3 +20,4 @@ Grafana:
 https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
 
 `[[HOST_IP]]`{{execute}}
+`[[HOST2_IP]]`{{execute}}
